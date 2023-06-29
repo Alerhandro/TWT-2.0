@@ -1,0 +1,296 @@
+.retangulo {
+    display: auto;
+    position: absolute;
+    width: 100%;
+    height: 155px;
+    left: -7px;
+    top: 0px;
+    background-color: whitesmoke;
+    background-size: cover;
+    z-index: -1;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    background: #A3C4C0;
+    text-align: center;
+}
+
+.baixo img {
+    width: 250px;
+    height: 250px;
+}
+
+header img {
+    width: 250px;
+    height: 250px;
+    left: -1px;
+    top: -1px;
+}
+
+.container {
+
+    z-index: 10;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 10px;
+}
+
+.foto {
+    width: 100px;
+    height: 100px;
+}
+
+nav a:hover {
+    color: mediumseagreen;
+}
+
+body {
+    color: white;
+    background-color: white;
+    z-index: -1;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: left;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    font-family: 'Poppins';
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+p {
+    text-align: center;
+    color: #000000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.osso {
+    position: relative;
+    left: -5px;
+    top: -15px;
+    background-position-y: bottom 85px;
+    border: 2px solid #000000;
+}
+
+.main {
+    display: flex;
+}
+
+.fundo img {
+    position: relative;
+    height: 550px;
+    width: 950px;
+    top: 120px;
+    left: -350px;
+    z-index: -5;
+}
+
+.rodape a {
+    color: black;
+}
+
+.rodape a:hover {
+    color: white;
+}
+
+.icons {
+    width: 30px;
+    height: 30px;
+}
+
+.xd {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    left: -20px;
+    top: 185px;
+}
+
+.main .t {
+    position: relative;
+    left: -325px;
+    top: 171px;
+}
+
+.main .q {
+    position: relative;
+    left: -300px;
+    top: 173px;
+}
+
+.main .w {
+    position: relative;
+    left: -205px;
+    top: 75px;
+}
+
+.main .e {
+    position: relative;
+    left: -95px;
+    top: -25px;
+}
+
+.main .r {
+    position: relative;
+    left: -8px;
+    top: -126px;
+}
+
+.main .u {
+    position: relative;
+    left: 93px;
+    top: -225px;
+}
+
+.main .i {
+    position: relative;
+    left: 200px;
+    top: -325px;
+}
+
+.main .o {
+    position: relative;
+    left: -300px;
+    top: -230px;
+}
+
+.main .p {
+    position: relative;
+    left: -200px;
+    top: -330px;
+}
+
+
+.main h1 {
+    position: relative;
+    width: 500px;
+    height: 41px;
+    left: 600px;
+    top: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.main h2 {
+    position: relative;
+    width: 500px;
+    height: 41px;
+    left: -280px;
+    top: 115px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.main h3 {
+    position: relative;
+    width: 103px;
+    height: 19px;
+    left: 162px;
+    top: 361px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.main .y {
+    position: relative;
+    width: 225px;
+    height: 23px;
+    left: 800px;
+    top: -50px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+}
+
+
+
+#divBusca {
+    display: flex;
+    background: linear-gradient(0deg, rgba(250, 241, 241, 0.2), rgba(250, 241, 241, 0.2)), linear-gradient(0deg, rgba(254, 249, 249, 0.4), rgba(254, 249, 249, 0.4)), #8DA8D1;
+    border-radius: 27px;
+    border: solid 2px #5F9EA0;
+    border-radius: 10px;
+    width: 300px;
+    height: 32px;
+}
+
+#txtBusca {
+    display: flex;
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 191px;
+}
+
+#btnBusca {
+
+    border: none;
+    float: left;
+    height: 32px;
+    border-radius: 0 7px 7px 0;
+    width: 70px;
+    font-weight: bold;
+    background: #5F9EA0;
+}
+
+#divBusca img {
+    display: flex;
+    float: left;
+    height: 30px;
+    width: 35px;
+}

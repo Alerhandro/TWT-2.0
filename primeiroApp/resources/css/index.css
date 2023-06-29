@@ -1,0 +1,119 @@
+body{
+    color: white;
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(./img/FUNDOPRETO.png);
+}
+
+.container{
+    padding: 0px 50px;
+}
+
+nav a:hover{
+    color: cyan;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+header img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 6px solid rgb(255, 255, 255);
+}
+
+.center{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    justify-items: center;
+}
+
+h1{
+    color: rgb(253,247,247);
+    text-align: center;
+}
+
+h2,h3,p{
+    text-align: center;
+    color: whitesmoke;
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+    padding: 2px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    padding-right: 25px;
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+}

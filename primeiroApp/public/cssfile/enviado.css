@@ -1,0 +1,348 @@
+.retangulo {
+    display: auto;
+    position: absolute;
+    width: 100%;
+    height: 155px;
+    left: -7px;
+    top: 0px;
+    background-color: whitesmoke;
+    background-size: cover;
+    z-index: -1;
+}
+
+.rodape {
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    background: #A3C4C0;
+    text-align: center;
+}
+
+.rodape a {
+    color: black;
+}
+
+.rodape a:hover {
+    color: white;
+}
+
+.baixo img {
+    width: 250px;
+    height: 250px;
+}
+
+header img {
+    width: 250px;
+    height: 250px;
+    left: -1px;
+    top: -1px;
+}
+
+.container {
+    z-index: 10;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 10px;
+}
+
+.foto {
+    width: 100px;
+    height: 100px;
+}
+
+nav a:hover {
+    color: mediumseagreen;
+}
+
+body {
+    color: white;
+    background-color: white;
+    z-index: -1;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: left;
+}
+
+.osso {
+    position: relative;
+    left: -5px;
+    top: -15px;
+    background-position-y: bottom 85px;
+    border: 2px solid #000000;
+}
+
+#divBusca {
+    display: flex;
+    background: linear-gradient(0deg, rgba(250, 241, 241, 0.2), rgba(250, 241, 241, 0.2)), linear-gradient(0deg, rgba(254, 249, 249, 0.4), rgba(254, 249, 249, 0.4)), #8DA8D1;
+    border-radius: 27px;
+    border: solid 2px #5F9EA0;
+    border-radius: 10px;
+    width: 300px;
+    height: 32px;
+}
+
+#txtBusca {
+    display: flex;
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 191px;
+}
+
+#btnBusca {
+
+    border: none;
+    float: left;
+    height: 32px;
+    border-radius: 0 7px 7px 0;
+    width: 70px;
+    font-weight: bold;
+    background: #5F9EA0;
+}
+
+#divBusca img {
+    display: flex;
+    float: left;
+    height: 30px;
+    width: 35px;
+}
+
+.main {
+    display: flex;
+}
+
+.Q {
+    position: relative;
+    width: 1000px;
+    height: 43px;
+    left: 100px;
+    top: 0px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.W {
+    position: relative;
+    width: 1000px;
+    height: 43px;
+    left: 350px;
+    top: -59px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.E {
+    position: relative;
+    width: 1000px;
+    height: 43px;
+    left: 473px;
+    top: -118px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.R {
+    position: relative;
+    width: 1000px;
+    height: 43px;
+    left: 630px;
+    top: -176px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+
+.icons {
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0;
+}
+
+.main .t {
+    position: relative;
+    left: 75px;
+    top: 22px;
+}
+
+
+.quadrado {
+    position: relative;
+    width: 1285px;
+    height: 400px;
+    left: -650px;
+    top: 120px;
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.quadrado {
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.quadrado .Z {
+    position: relative;
+    width: 218px;
+    height: 35px;
+    left: 60px;
+    top: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.quadrado .C {
+    position: relative;
+    width: 218px;
+    height: 35px;
+    left: 260px;
+    top: -105px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.quadrado .X {
+    position: relative;
+    width: 218px;
+    height: 35px;
+    left: 280px;
+    top: -110px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.quadrado .V {
+    position: relative;
+    width: 218px;
+    height: 35px;
+    left: 950px;
+    top: -210px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.linha {
+    position: relative;
+    width: 1100px;
+    height: 0px;
+    left: 0px;
+    top: -150px;
+    border: 1px solid #000000;
+}
+
+.quadrado .AA {
+    position: relative;
+    left: 0px;
+    top: -120px;
+    width: 150px;
+    height: 50px;
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+}
+
+.quadrado .SS {
+    position: relative;
+    left: 900px;
+    top: -190px;
+    display: flex;
+    width: 93px;
+    height: 19px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 20px;
+    font-family: Poppins;
+}
+
+.GG{
+    position: relative;
+    top: -180px;
+    left: 450px;
+}
+
+
+
+.button {
+    width: 209px;
+    height: 37px;
+    left: 95px;
+    top: 1058px;
+    background: #1F565E;
+}
+
+.button1 {
+    border-radius: 7px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
